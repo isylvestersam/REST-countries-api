@@ -4,4 +4,10 @@
 * {
   font-family: 'Nunito Sans';
 }
+button {
+  @apply hover:cursor-pointer
+}
+.animate {
+  @apply transition-all duration-300 ease-in-out
+}
 
